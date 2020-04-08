@@ -6226,30 +6226,9 @@ a.close.disabled {
   position: relative;
   width: 100%;
   overflow: hidden;
-}
-@media (min-height: 576px) {
-  .carousel-inner {
-    max-height: 200px;
-  }
+  max-height: 200px !important;
 }
 
-@media (min-height: 768px) {
-  .carousel-inner{
-    max-height: 300px;
-  }
-}
-
-@media (min-height: 992px) {
-  .carousel-inner {
-    max-height: 472px;
-  }
-}
-
-@media (min-height: 1200px) {
-  .carousel-inner {
-    max-height: 300px;
-  }
-}
 .carousel-inner::after {
   display: block;
   clear: both;
