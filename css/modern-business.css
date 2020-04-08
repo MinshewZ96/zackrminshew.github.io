@@ -8,12 +8,30 @@ body {
 }
 .carousel-item {
   width: 100%;
+  height: 65vh;
+  min-height: 300px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
+
+@media only screen and (min-width: 400px) {
+  /* For mobile phones: */
+  #citem1 {
+    background-image: url('../pics/myowebsite.PNG');
+  }
+
+  #citem2 {
+    background-image: url('../pics/myowebsite3.PNG');
+  }
+  
+  #citem3 {
+    background-image: url('../pics/myMyoApp4.PNG');
+  }
+}
+  
 
 .portfolio-item {
   margin-bottom: 30px;
@@ -25,15 +43,39 @@ body {
   min-height: 35vh;
 }
 
-@media only screen and (max-width: 959px) {
-  .carousel-item {
+@media only screen and (min-width: 959px) {
+  /* .carousel-item {
     height: 35vh;
     min-height: 100px;
+  } */
+
+  #citem1 {
+    background-image: url('../pics/myowebsite1.PNG');
+  }
+
+  #citem2 {
+    background-image: url('../pics/myowebsite2.PNG');
+  }
+  
+  #citem3 {
+    background-image: url('../pics/myMyoApp3.PNG');
   }
 }
-@media only screen and (max-width: 1919px) {
-  .carousel-item {
+@media only screen and (min-width: 1919px) {
+  /* .carousel-item {
     height: 65vh;
     min-height: 300px;
+  } */
+
+  #citem1 {
+    background-image: url('../pics/myowebsite1.PNG');
+  }
+
+  #citem2 {
+    background-image: url('../pics/myowebsite2.PNG');
+  }
+  
+  #citem3 {
+    background-image: url('../pics/myMyoApp3.PNG');
   }
 }
