@@ -6227,27 +6227,27 @@ a.close.disabled {
   width: 100%;
   overflow: hidden;
 }
-@media (min-width: 576px) {
+@media (min-height: 576px) {
   .carousel-inner {
     max-height: 200px;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-height: 768px) {
   .carousel-inner{
     max-height: 300px;
   }
 }
 
-@media (min-width: 992px) {
+@media (min-height: 992px) {
   .carousel-inner {
     max-height: 472px;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-height: 1200px) {
   .carousel-inner {
-    max-height: 600px;
+    max-height: 300px;
   }
 }
 .carousel-inner::after {
