@@ -34,6 +34,24 @@ body {
   }
 }
   
+@media only screen and (min-width: 800px) {
+  /* For mobile phones: */
+  .carousel-item {
+    height: 35vh;
+    min-height: 100px;
+  }
+  #citem1 {
+    background-image: url('../pics/myowebsite.PNG');
+  }
+
+  #citem2 {
+    background-image: url('../pics/myowebsite3.PNG');
+  }
+  
+  #citem3 {
+    background-image: url('../pics/myMyoApp4.PNG');
+  }
+}
 
 .portfolio-item {
   margin-bottom: 30px;
@@ -45,7 +63,7 @@ body {
   min-height: 35vh;
 }
 
-@media only screen and (min-width: 959px) {
+@media only screen and (min-width: 1280px) {
  .carousel-item {
     height: 65vh;
     min-height: 100px;
