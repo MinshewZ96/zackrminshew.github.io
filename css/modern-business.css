@@ -8,7 +8,7 @@ body {
 }
 
 .carousel-item {
-  height: 40%;
+  height: 30vh;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
