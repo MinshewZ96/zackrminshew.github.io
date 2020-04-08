@@ -8,9 +8,8 @@ body {
 }
 
 .carousel-item {
-  max-height: 65vh;
-  height: auto;
- /*! min-height: 200px;*/
+  height: 65vh;
+  min-height: 200px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -22,3 +21,7 @@ body {
   margin-bottom: 30px;
 }
 
+.responsive {
+  width: 100%;
+  height: auto;
+}
