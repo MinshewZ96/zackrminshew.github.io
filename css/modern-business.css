@@ -18,7 +18,7 @@ body {
 @media only screen and (min-width: 400px) {
   /* For mobile phones: */
   .carousel-item {
-    height: 35vh;
+    height: 50vh;
     min-height: 100px;
   }
   #citem1 {
@@ -37,7 +37,7 @@ body {
 @media only screen and (min-width: 800px) {
   /* For mobile phones: */
   .carousel-item {
-    height: 35vh;
+    height: 50vh;
     min-height: 100px;
   }
   #citem1 {
